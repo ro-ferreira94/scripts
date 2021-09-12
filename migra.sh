@@ -1,0 +1,1 @@
+for move in $(cat /tmp/epsilon2laos8900.txt ); do echo $(date) - Start - ${move} ; zmmboxmove -a ${move} -f epsilon.inner.intraer -t laos.inner.intraer --sync; echo $(date) - End - ${move} ; done 1> /tmp/moveep2laos.txt 2> /tmp/moveep2laos-error.tx
