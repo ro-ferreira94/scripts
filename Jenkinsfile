@@ -3,8 +3,15 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "git clone https://github.com/ro-ferreira94/scripts.git"
+                git url "https://github.com/ro-ferreira94/scripts.git",branch: 'master'
             }
+    stages {
+        stage ('Echo OKKK!!!!') {
+            steps {
+                echo "GOGOGOGOG"
+            }
+        }
+    }
         }  
     }    
 }
