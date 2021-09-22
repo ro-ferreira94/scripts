@@ -8,12 +8,12 @@ pipeline {
         }
         stage('OLA!') {
             steps {
-                echo "Ola!"
+                echo "Executando shell"
             }
         }
         stage('Comando Shell') {
             steps {
-                readFile '/root/sc.sh'
+                sh 'def.py'
             }
         }
     }
