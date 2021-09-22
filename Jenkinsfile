@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Comando Shell') {
             steps {
-                sh 'def.py'
+                sh '/Users/rodrigo.ferreira/scripts/def.py'
             }
         }
     }
