@@ -7,4 +7,11 @@ pipeline {
             }
         }
     }
+    stages {
+        stage('OLA') {
+            steps {
+                echo "AHAHAHA!"
+            }
+        }
+    }
 }
