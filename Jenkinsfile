@@ -11,5 +11,10 @@ pipeline {
                 echo "Ola!"
             }
         }
+        stage('Comando Shell') {
+            steps {
+                readFile '/root/'
+            }
+        }
     }
 }
