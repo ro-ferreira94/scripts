@@ -7,11 +7,4 @@ pipeline {
             }
         }
     }
-    stages {
-        stage('Escrevendo OK') {
-            steps {
-                echo "OKKK!"
-            }
-        }
-    }    
 }
