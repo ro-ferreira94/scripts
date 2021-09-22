@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Comando Shell') {
             steps {
-                readFile '/root/'
+                readFile '/root/sc.sh'
             }
         }
     }
